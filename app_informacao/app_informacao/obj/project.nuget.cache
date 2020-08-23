@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "OiyOe8Aa4jdslYGH4+l4RoqTFalUBbscIPw/AY+56cdHBwFVANZaDeSDX5P0fe1dR4gmWMoxNbfUIEEkNpceGg==",
+  "success": true,
+  "projectFilePath": "C:\\DEV\\curso-xamarin-2020\\projeto4_udemy\\app_informacao\\app_informacao\\app_informacao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maran\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\maran\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\maran\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}

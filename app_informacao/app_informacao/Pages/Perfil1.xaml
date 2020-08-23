@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="app_informacao.Pages.Perfil1">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Spacing="0">
+                <RelativeLayout VerticalOptions="Start" HeightRequest="300" BackgroundColor="LightGray">
+                    <Frame BackgroundColor="Tomato" HasShadow="False" WidthRequest="300" HeightRequest="300" CornerRadius="170" 
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=-190}"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5, Constant=-170}"
+                       />
+                    <Image WidthRequest="120" Source="user.png" x:Name="imgPerfil"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5, Constant=-60}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.2, Constant=0}"/>
+
+                    <Label Text="Miguel de Icaza" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=imgPerfil, Property=Width, Factor=1, Constant=160}"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=imgPerfil, Property=Y, Factor=1, Constant=130}"
+                           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=imgPerfil, Property=X, Factor=1, Constant=-80}"/>
+                </RelativeLayout>
+
+
+                <Grid HeightRequest="120" BackgroundColor="#0d1f2d">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Label Text="20" TextColor="White" FontSize="30"/>
+                        <Label Text="anos" HorizontalTextAlignment="Center" TextColor="White"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Label Text="10/01/2000" TextColor="White" FontSize="24"/>
+                        <Label Text="Nasceu" HorizontalTextAlignment="Center" TextColor="White"/>
+                    </StackLayout>
+                </Grid>
+
+                <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Label FontSize="18" Text="O sistema LORAN é um sistema terrestre de radionavegação, baseado na utilização de emissões coordenadas de impulsos radioeléctricos de ondas médias ou longas."/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

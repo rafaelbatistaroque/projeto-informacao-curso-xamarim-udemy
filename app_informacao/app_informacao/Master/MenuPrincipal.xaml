@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:pagina="clr-namespace:app_informacao.Pages"
+             x:Class="app_informacao.Master.MenuPrincipal">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" BackgroundColor="#0d1f2d">
+            <StackLayout>
+                <StackLayout BackgroundColor="#ffc926">
+                    <Image HorizontalOptions="Center" VerticalOptions="Center" Source="logo_quad.png"/>
+                </StackLayout>
+                <StackLayout Padding="10" Spacing="10">
+                    <Button Text="Miguel Icaza" BackgroundColor="#15334a" TextColor="White" FontSize="18" Clicked="IrPaginaPerfil1"/>
+                    <Button Text="Rafa Batista" BackgroundColor="#15334a" TextColor="White" FontSize="18"/>
+                    <Button Text="Sobre" BackgroundColor="#15334a" TextColor="White" FontSize="18" Clicked="IrPaginaSobre"/>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <pagina:Perfil1/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

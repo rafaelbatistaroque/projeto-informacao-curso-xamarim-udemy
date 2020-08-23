@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="app_informacao.Pages.Sobre">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <StackLayout BackgroundColor="#ffc926" Padding="30">
+                <Image Source="logo_quad.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="#0d1f2d" HeightRequest="100">
+                <Label Text="Sobre" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="48" TextColor="White"/>
+            </StackLayout>
+            <StackLayout HeightRequest="100" Orientation="Horizontal">
+                <RelativeLayout>
+                    <BoxView x:Name="box1" WidthRequest="30" HeightRequest="30" BackgroundColor="#0d1f2d" Margin="10"/>
+                    <BoxView x:Name="box2" WidthRequest="30" HeightRequest="30" BackgroundColor="#1a4261"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=box1, Property=X,Factor=1,Constant=15}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=box1, Property=Y,Factor=1,Constant=15}"/>
+                    <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#487699"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=box2, Property=X,Factor=1,Constant=15}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=box2, Property=Y,Factor=1,Constant=15}"/>
+                </RelativeLayout>
+                <Label Text="Empresa" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="48"/>
+            </StackLayout>
+            <StackLayout Padding="30">
+                <Label FontSize="16" Text="A empresa é a atividade do empresário, e não se confunde com o seu estabelecimento, com a pessoa jurídica, com a sociedade, ponto comercial ou com os seus sócios. A empresa não é dotada de personalidade jurídica, nem considerada sujeito de direitos. Quem exerce direitos e contrai obrigações é o empresário, e não a empresa. A empresa é a atividade por ele desenvolvida."/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

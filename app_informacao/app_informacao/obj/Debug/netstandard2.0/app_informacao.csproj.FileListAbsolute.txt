@@ -1,0 +1,17 @@
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\bin\Debug\netstandard2.0\app_informacao.deps.json
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\bin\Debug\netstandard2.0\app_informacao.dll
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\bin\Debug\netstandard2.0\ref\app_informacao.dll
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\bin\Debug\netstandard2.0\app_informacao.pdb
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\app_informacao.csprojAssemblyReference.cache
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\Master\MenuPrincipal.xaml.g.cs
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\Pages\Perfil1.xaml.g.cs
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\Pages\Sobre.xaml.g.cs
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\app_informacao.AssemblyInfoInputs.cache
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\app_informacao.AssemblyInfo.cs
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\app_informacao.csproj.CoreCompileInputs.cache
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\XamlC.stamp
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\app_informacao.dll
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\ref\app_informacao.dll
+C:\DEV\curso-xamarin-2020\projeto4_udemy\app_informacao\app_informacao\obj\Debug\netstandard2.0\app_informacao.pdb
